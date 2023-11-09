@@ -1,11 +1,11 @@
 # errors fixed
 
-This repo contain some files and solutions that i faced using linux.So, instead of searching same working solution, i decided to make this repository.
+This repo contain some files and solutions that i faced using linux.So, instead of searching same working solution again and again, i decided to make this repository.
 ### xbacklight no output device
 This error is when i try to adjust brightness with xbacklight of xorg,it say no output device.
 
 
-## soloution
+## solution
 create new file by using this command
 
 ```javascript
@@ -21,9 +21,8 @@ EndSection
 ```
 then save and reboot.fixed
 
-### xbacklight no output device
-Touchpad tap on click not working.
-## soloution
+### Touchpad tap on click not working.
+## solution
 create new file by using this command
 
 ```javascript
@@ -40,9 +39,9 @@ Section "InputClass"
 EndSection
 ```
 then save and reboot.fixed
-### lxappearance Segmentation fault
+### lxappearance Segmentation fault or it is not launching.
 
-## soloution
+## solution
 Run 
 ```javascript
 sudo apt remove lxappearance-obconf
